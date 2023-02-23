@@ -56,7 +56,7 @@ $CFG->dbpass    = 'patp01129302';
 
 - ```for d in $(...); do``` : Cette ligne commence une boucle "for" qui va parcourir tous les répertoires trouvés par la commande ```find```.
 
-- ```find . -maxdepth 4 -type d -not -path '*/\.*'``` est la commande ```find``` elle-même. Elle recherche tous les répertoires (```-type d```) situés dans le répertoire courant (".") jusqu'à une profondeur maximale de 4 niveaux (```-maxdepth 4"```), en ignorant les répertoires cachés (```-not -path '/.'```).
+- ```find . -maxdepth 4 -type d -not -path '*/\.*'``` est la commande ```find``` elle-même. Elle recherche tous les répertoires (```-type d```) situés dans le répertoire courant (".") jusqu'à une profondeur maximale de 4 niveaux (```-maxdepth 4"```), en ignorant les répertoires cachés (```-not -path '*/\.*'```).
 
 - ```$()``` : cette syntaxe permet d'exécuter une commande shell à l'intérieur d'une autre commande shell et d'utiliser sa sortie comme entrée. Dans ce cas, la sortie de la commande "find" sera utilisée pour parcourir les répertoires avec la boucle "for".
 
