@@ -21,7 +21,8 @@ J'ai utilisé la méthode git pour télécharger le code.
 #### M01.b)   
 Le dossier créé s'appelle "moodle". 
 
-#### M01.c)  La commande ```git log``` permet de lister tous les fichiers et dossiers qui commencent par ```.g``` dans le répertoire courant. Voici l'affichage :  
+#### M01.c) 
+La commande ```git log``` permet de lister tous les fichiers et dossiers qui commencent par ```.g``` dans le répertoire courant. Voici l'affichage :  
 ```
 .gherkin-lintrc  
 .git  
