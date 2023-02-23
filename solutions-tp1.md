@@ -42,14 +42,14 @@ $CFG->dbpass    = 'patp01129302';
 
 ## Mission 4 :
 ```count=0; for d in $(find . -maxdepth 4 -type d -not -path '*/\.*'); do if [ -d "$d" ]; then count=$((count+1)); fi; done; echo $count```  
-- Cette commande parcours chaque dossier à une profondeur de 4 sous-arbres du dossier courant ("moodle") et incrémente la variable "count" si le chemin trouvé est un dossier.
+- Cette commande parcours chaque dossier à une profondeur de 4 sous-arbres du dossier courant (*"moodle"*) et incrémente la variable *"count"* si le chemin trouvé est un dossier.
 
 ## Mission 5 :
 ```grep -rinw 'dougiamas' admin | awk -F ":" '{print $1 " -> Ligne: " $2}' > ../M05.txt ``` 
 
-- "grep -rinw 'dougiamas' admin ": Recherche récursive dans le dossier admin (et ses sous-dossiers) du mot dougiamas sans tenir compte de la casse (-i), avec affichage des numéros de ligne (-n) et des noms de fichiers correspondants (-w).  
-- " awk -F ":" '{print $1 " -> Ligne: " $2}' " : pour chaque ligne retournée par grep, on découpe la chaîne au niveau des ":" grâce à la commande "awk", et on affiche le nom du fichier suivi de la chaîne " -> Ligne: " et du numéro de ligne.  
-- "> ../M05.txt" : redirection de la sortie de la commande vers le fichier M05.txt situé à la racine du dossier de code source.  
+- *"grep -rinw 'dougiamas' admin "*: Recherche récursive dans le dossier admin (et ses sous-dossiers) du mot dougiamas sans tenir compte de la casse (-i), avec affichage des numéros de ligne (-n) et des noms de fichiers correspondants (-w).  
+- *" awk -F ":" '{print $1 " -> Ligne: " $2}' "* : pour chaque ligne retournée par grep, on découpe la chaîne au niveau des ":" grâce à la commande "awk", et on affiche le nom du fichier suivi de la chaîne " -> Ligne: " et du numéro de ligne.  
+- *"> ../M05.txt"* : redirection de la sortie de la commande vers le fichier M05.txt situé à la racine du dossier de code source.  
 
 ## Mission 6 : 
 
