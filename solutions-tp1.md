@@ -32,13 +32,13 @@ $CFG->dbpass    = 'patp01129302';
 ```
 
 #### m02.c) ```grep -i "patp01129302" ../config-PATP01129302.php  ``` 
-- La commande "grep" recherche toutes les lignes qui contiennent la chaîne de caractères : "patp01129302" dans le fichier "config-PATP01129302.php".   
-- L'option "-i" indique que la recherche doit être insensible à la casse.
+- La commande *"grep"* recherche toutes les lignes qui contiennent la chaîne de caractères : "patp01129302" dans le fichier "config-PATP01129302.php".   
+- L'option *"-i"* indique que la recherche doit être insensible à la casse.
 
 
 ## Mission 3 :
 ```ln -s ../config-PATP01129302.php config.php   ```  
-- La commande permet de créer un lien symbolique nommé "config.php" dans le dossier racine du code source.
+- La commande permet de créer un lien symbolique nommé *"config.php"* dans le dossier racine du code source.
 
 ## Mission 4 :
 ```count=0; for d in $(find . -maxdepth 4 -type d -not -path '*/\.*'); do if [ -d "$d" ]; then count=$((count+1)); fi; done; echo $count```  
