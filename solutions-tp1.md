@@ -24,9 +24,9 @@ Moodle release 4.1.1
 Cette commande copie le contenu du fichier "config-dist.php" vers le dossier parent sous le nom de "config-PATP01129302.php"  
 
 #### m02.b) Après avoir utilisé la commande vim pour éditer les valeurs, voici le résultat :  
-$CFG->dbname    = 'patp01129302';  
+```$CFG->dbname    = 'patp01129302';  
 $CFG->dbuser    = 'patp01129302';  
-$CFG->dbpass    = 'patp01129302';  
+$CFG->dbpass    = 'patp01129302';  ```
 
 #### m02.c) ```grep -i "patp01129302" ../config-PATP01129302.php  ``` 
 La commande "grep" recherche toutes les lignes qui contiennent la chaîne de caractères : "patp01129302" dans le fichier "config-PATP01129302.php". 
