@@ -31,7 +31,7 @@ $CFG->dbpass    = 'patp01129302';
 ```
 
 #### m02.c) ```grep -i "patp01129302" ../config-PATP01129302.php  ``` 
-La commande "grep" recherche toutes les lignes qui contiennent la chaîne de caractères : "patp01129302" dans le fichier "config-PATP01129302.php". 
+La commande "grep" recherche toutes les lignes qui contiennent la chaîne de caractères : "patp01129302" dans le fichier "config-PATP01129302.php".   
 L'option "-i" indique que la recherche doit être insensible à la casse.
 
 
