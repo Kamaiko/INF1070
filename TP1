@@ -66,9 +66,16 @@ Mission 9:
 
 M09.a) 20230116
 M09.b) echo $(date -d "2023-01-16 00:00:00" +%s) - $(date -d "1970-01-01 00:00:00" +%s) | bc
-M09.c)
-M09.d)
-M09.e)
+M09.c) touch -t 202301160000.00 version.php
+M09.d) stat -c %y version.php
+Résultat affiché : 2023-01-16 00:00:00.000000000 -0500
+M09.e) Réponse : 1673845200
+Commande : expr $(date -r version.php '+%s') - 0
+
+Mission 10
+M10.a) chmod u=rx,g=w,o=r ../Téléchargements/moi.sh
+M10.b) chmod 754 ../Téléchargement/moi.sh
 
 
-
+Mission 11:
+M11.a : du -ah | grep '.php\.PHP' | sort -rh | head -n 5
