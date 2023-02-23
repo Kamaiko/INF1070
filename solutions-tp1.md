@@ -137,8 +137,10 @@ Résultat affiché : *2023-01-16 00:00:00.000000000 -0500*
 
 
 #### M11.b) Résultat de la commande :  
-```6,0M	./lib/phpspreadsheet  
+```
+6,0M	./lib/phpspreadsheet  
 5,9M	./lib/phpspreadsheet/vendor  
 5,4M	./lib/phpspreadsheet/vendor/phpoffice/phpspreadsheet  
 5,4M	./lib/phpspreadsheet/vendor/phpoffice  
-5,3M	./lib/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet  ```
+5,3M	./lib/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet 
+```
