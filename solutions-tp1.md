@@ -53,7 +53,7 @@ $CFG->dbpass    = 'patp01129302';
 
 ## Mission 6 : 
 
-```at ../Téléchargements/phptag.php && echo && grep -B 5 -A 25 'function get_home_page' /lib/moodlelib.php > ../get_home.php  ```
+```cat ../Téléchargements/phptag.php && echo && grep -B 5 -A 25 'function get_home_page' /lib/moodlelib.php > ../get_home.php  ```
 - ```cat ../Téléchargementséphptag.php && echo``` affiche le contenu du fichier phptag.php suivi d'une ligne vide.  
 - ```grep -B 5 -A 25 'function get_home_page' lib/moodlelib.php``` recherche la ligne qui contient la déclaration de la fonction "get_home_page" dans le fichier *"moodlelib.php"* et affiche les 5 lignes précédentes et les 25 lignes suivantes.  
 - ```> ../get_home.php``` redirige la sortie vers un nouveau fichier *"get_home.php"* dans le dossier parent du dossier des codes sources.  
