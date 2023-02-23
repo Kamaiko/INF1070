@@ -54,13 +54,11 @@ $CFG->dbpass    = 'patp01129302';
 ```count=0; for d in $(find . -maxdepth 4 -type d -not -path '*/\.*'); do if [ -d "$d" ]; then count=$((count+1)); fi; done; echo $count```  
 - ```count=0;``` : Cette ligne initialise la variable "count" à 0, qui sera utilisée pour stocker le nombre de répertoires trouvés.
 
-- ```for d in $(...); do``` : Cette ligne commence une boucle "for" qui va parcourir tous les répertoires trouvés par la commande "find".
+- ```for d in $(...); do``` : Cette ligne commence une boucle "for" qui va parcourir tous les répertoires trouvés par la commande ```find```.
 
-- ```find . -maxdepth 4 -type d -not -path '*/\.*'``` est la commande ```find``` elle-même. Elle recherche tous les répertoires (``` -type d```) situés dans le répertoire courant (".") jusqu'à une profondeur maximale de 4 niveaux ("-maxdepth 4"), en ignorant les répertoires cachés (option "-not -path '/.'").
+- ```find . -maxdepth 4 -type d -not -path '*/\.*'``` est la commande ```find``` elle-même. Elle recherche tous les répertoires (```-type d```) situés dans le répertoire courant (".") jusqu'à une profondeur maximale de 4 niveaux (```-maxdepth 4"```), en ignorant les répertoires cachés (```-not -path '/.'```).
 
 - ```$()``` : cette syntaxe permet d'exécuter une commande shell à l'intérieur d'une autre commande shell et d'utiliser sa sortie comme entrée. Dans ce cas, la sortie de la commande "find" sera utilisée pour parcourir les répertoires avec la boucle "for".
-
-- ```for d in ... ; do``` : cette syntaxe permet de parcourir une liste de valeurs (dans ce cas, les répertoires trouvés par la commande "find") et d'exécuter un bloc de code pour chaque valeur.
 
 - ```if [ -d "$d" ]; then count=$((count+1)); fi;``` : Cette ligne vérifie si la valeur courante de la boucle "for" est bien un répertoire, et si c'est le cas, elle incrémente la variable "count" de 1.
 
