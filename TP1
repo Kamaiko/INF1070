@@ -54,6 +54,12 @@ find /home/patp01129302/moodle -name "*.zip" > M07.txt
 
 Mission 8 :
 
+M08.a) : shc -f /home/patp01129302/Téléchargements/moi.sh -o M08
+M08.b) 2 fichiers sont crées : M08 et moi.sh.x.c
+M08.c) Le premier est un fichier exécutable nommé M08 de type "Fichier exécutable ELF 64 bits" et le second est un fichier de type "C source".
+Les commandes sont respectivement : file M08 et file ../Téléchargements/moi.sh.x.c
+M08.d) La commande './M08' affiche le nom d'utilisateur actuel
+M08.e) 
 
 
 
