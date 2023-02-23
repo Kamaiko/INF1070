@@ -20,7 +20,7 @@ Moodle release 4.1.1
 
 ## Mission 2 :
 
-#### m02.a) :        cp config-dist.php ../config-PATP01129302.php  
+#### m02.a) : ```cp config-dist.php ../config-PATP01129302.php ```  
 Cette commande copie le contenu du fichier "config-dist.php" vers le dossier parent sous le nom de "config-PATP01129302.php"  
 
 #### m02.b) Après avoir utilisé la commande vim pour éditer les valeurs, voici le résultat :  
