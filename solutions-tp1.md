@@ -9,7 +9,7 @@ Moodle release 4.1.1
 #### M01.a J'ai utilisé la méthode git pour télécharger le code.    
 #### M01.b Le dossier créé s'appelle "moodle" et contient le code de Moodle.  
 
-#### M01.c) La commande ```git log``` permet de lister tous les fichiers et dossiers qui commencent par ".g" dans le répertoire courant :  
+#### M01.c) La commande ```git log``` permet de lister tous les fichiers et dossiers qui commencent par ```.g``` dans le répertoire courant :  
 ```
 .gherkin-lintrc  
 .git  
@@ -24,7 +24,7 @@ Moodle release 4.1.1
 #### m02.a) : ```cp config-dist.php ../config-PATP01129302.php ```  
 - Cette commande copie le contenu du fichier "config-dist.php" vers le dossier parent sous le nom de "config-PATP01129302.php"  
 
-#### m02.b) Après avoir utilisé la commande vim pour éditer les valeurs, voici le résultat :  
+#### m02.b) Après avoir utilisé la commande ```vim``` pour éditer les valeurs, voici le résultat :  
 ```
 $CFG->dbname    = 'patp01129302';  
 $CFG->dbuser    = 'patp01129302';  
@@ -32,8 +32,8 @@ $CFG->dbpass    = 'patp01129302';
 ```
 
 #### m02.c) ```grep -i "patp01129302" ../config-PATP01129302.php  ``` 
-- La commande *"grep"* recherche toutes les lignes qui contiennent la chaîne de caractères : "patp01129302" dans le fichier "config-PATP01129302.php".   
-- L'option *"-i"* indique que la recherche doit être insensible à la casse.
+- La commande ```grep``` recherche toutes les lignes qui contiennent la chaîne de caractères : "patp01129302" dans le fichier "config-PATP01129302.php".   
+- L'option ```-i``` indique que la recherche doit être insensible à la casse.
 
 
 ## Mission 3 :
