@@ -1,6 +1,6 @@
 #  🚀 TP1: Solutions
 
- ##  
+##  
 Nom : Patrick Patenaude            
 Code Permanent : PATP01129302               
 ##
