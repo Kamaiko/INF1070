@@ -1,9 +1,17 @@
 #  🚀 TP1: Solutions
 
-//////////////////////////////////////  
+|---------------------------------------------|
+|             Nom : Patrick Patenaude         |
+|        Code Permanent : PATP01129302        |
+| Ce document utilise uniquement des chemins  |
+| relatifs à partir du répertoire de travail  |
+|          actuel (moodle)                    |
+|---------------------------------------------|
+
+
 Travail réalisé par : Patrick Patenaude              
-//////Code Permanent : PATP01129302////                                 
-//////////////////////////////////////  
+Code Permanent : PATP01129302                               
+
  Veuillez noter que les chemins qui seront utilisé dans ce travail s'agissent de chemins relatifs partant du dossier *"moodle"*  
 
 ## Mission 1 :
