@@ -100,7 +100,7 @@ $CFG->dbpass    = 'patp01129302';
 - La commande ```touch -t"``` permet de spécifier la date et l'heure exacte à laquelle lefichier doit être modifié.
 
 #### M09.d) ```stat -c %y version.php  ```
-Résultat affiché : 2023-01-16 00:00:00.000000000 -0500
+Résultat affiché : *2023-01-16 00:00:00.000000000 -0500*
 
 - ```stat``` est utilisé pour afficher des informations détaillées sur un fichier donné  
 - ```-c``` est utilisé pour spécifier le format de sortie des informations, dans ce cas ```%y``` qui représente la date/heure de dernière modification du fichier au format   "année-mois-jour heure:minute:seconde"  
