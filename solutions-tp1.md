@@ -68,7 +68,7 @@ $CFG->dbpass    = 'patp01129302';
 
 - ```done;``` : Cette ligne marque la fin de la boucle "for".
 
-- ```echo $count``` : Cette ligne affiche le nombre de répertoires trouvés, qui a été stocké dans la variable "count", en utilisant la commande "echo
+- ```echo $count``` : Cette ligne affiche le nombre de répertoires trouvés, qui a été stocké dans la variable "count", en utilisant la commande ```echo```
 
 ## Mission 5 :
 ```grep -rinw 'dougiamas' admin | awk -F ":" '{print $1 " -> Ligne: " $2}' > ../M05.txt ``` 
