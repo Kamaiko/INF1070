@@ -129,9 +129,8 @@ Résultat affiché : *2023-01-16 00:00:00.000000000 -0500*
 - ```stat``` est utilisé pour afficher des informations détaillées sur un fichier donné  
 - ```-c``` est utilisé pour spécifier le format de sortie des informations, dans ce cas ```%y``` qui représente la date/heure de dernière modification du fichier au format   "année-mois-jour heure:minute:seconde"  
 
-#### M09.e) Réponse : 1673845200  
-```expr $(date -r version.php '+%s') - 0```  
-
+#### M09.e) ```expr $(date -r version.php '+%s') - 0```  
+Résultat : 1673845200
 - ```date -r version.php '+%s'``` renvoie le nombre de secondes écoulés depuis "epoch" jusqu'à cette date  
 - ```expr``` est une commande qui permet d'évaluer des expressions mathématiques.  
 - ```$(commande)``` est une syntaxe qui permet d'insérer le résultat de la commande commande dans l'expression.  
