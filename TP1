@@ -59,7 +59,16 @@ M08.b) 2 fichiers sont crées : M08 et moi.sh.x.c
 M08.c) Le premier est un fichier exécutable nommé M08 de type "Fichier exécutable ELF 64 bits" et le second est un fichier de type "C source".
 Les commandes sont respectivement : file M08 et file ../Téléchargements/moi.sh.x.c
 M08.d) La commande './M08' affiche le nom d'utilisateur actuel
-M08.e) 
+M08.e) (Fichiers annexés dans le rapport)
+
+
+Mission 9:
+
+M09.a) 20230116
+M09.b) date -d "2023-01-16 00:00:00" +%s
+M09.c)
+M09.d)
+M09.e)
 
 
 
