@@ -87,17 +87,16 @@ $CFG->dbpass    = 'patp01129302';
 
 ## Mission 7 : 
 
-```find /home/patp01129302/moodle -name "*.zip" > M07.txt   ```
-- ```find``` est une commande qui permet de chercher des fichiers dans un répertoire donné.  
-- *"/home/patp01129302/moodle"* est le répertoire à partir duquel la recherche doit être effectuée.  
+```find . -name "*.zip" > M07.txt   ```
+- ```find``` est une commande qui permet de chercher des fichiers dans un répertoire donné. Le "." représente le répertoire courant.  
 - ```-name "*.zip"``` spécifie que la recherche doit être effectuée uniquement sur les fichiers dont l'extension est .zip.  
 - ``` > ``` est utilisé pour rediriger la sortie vers un fichier, dans ce cas *"M07.txt"*.  
 
 
 ## Mission 8 :
 
-#### M08.a) : ```shc -f /home/patp01129302/Téléchargements/moi.sh -o M08  ```
-- La commande permet de compiler le fichier executable *"moi.sh"* et de générer un exécutable nommé *"M08" * 
+#### M08.a) : ```shc -f ../Téléchargements/moi.sh -o M08  ```
+- La commande ``` shc -f```  permet de compiler le fichier executable *"moi.sh"* et de générer un exécutable nommé *"M08"*. l'option ```-f``` spécifie le nom du fichier à compiler. ```-o``` spécifie le nom du fichier à la sortie.
 
 #### M08.b) 2 fichiers sont crées : *"M08"* et *"moi.sh.x.c"*  
 
