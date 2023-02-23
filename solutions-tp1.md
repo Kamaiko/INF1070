@@ -6,10 +6,10 @@ Author : Jun Pataleta <jun@moodle.com>
 Date : Sat Jan 14 14:17:03 2023 +0800  
 Moodle release 4.1.1  
 
-M01.a J'ai utilisé la méthode git pour télécharger le code.    
-M01.b Le dossier créé s'appelle "moodle" et contient le code de Moodle.  
+### M01.a J'ai utilisé la méthode git pour télécharger le code.    
+### M01.b Le dossier créé s'appelle "moodle" et contient le code de Moodle.  
 
-M01.c) La commande permet de lister tous les fichiers et dossiers qui commencent par ".g" dans le répertoire courant :  
+### M01.c) La commande permet de lister tous les fichiers et dossiers qui commencent par ".g" dans le répertoire courant :  
 .gherkin-lintrc  
 .git  
 .gitattributes  
