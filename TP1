@@ -78,4 +78,10 @@ M10.b) chmod 754 ../Téléchargement/moi.sh
 
 
 Mission 11:
-M11.a : du -ah | grep '.php\.PHP' | sort -rh | head -n 5
+M11.a) du -ah | grep '.php\.PHP' | sort -rh | head -n 5
+M11.b) 
+6,0M	./lib/phpspreadsheet
+5,9M	./lib/phpspreadsheet/vendor
+5,4M	./lib/phpspreadsheet/vendor/phpoffice/phpspreadsheet
+5,4M	./lib/phpspreadsheet/vendor/phpoffice
+5,3M	./lib/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet
