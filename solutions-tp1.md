@@ -62,7 +62,7 @@ $CFG->dbpass    = 'patp01129302';
 
 - ```if [ -d "$d" ]; then count=$((count+1)); fi;``` : Cette ligne vérifie si la valeur courante de la boucle "for" est bien un répertoire, et si c'est le cas, elle incrémente la variable "count" de 1.
 
-- ```if [ -d "$d" ]; then ... fi;``` : cette syntaxe permet de conditionner l'exécution d'un bloc de code en fonction d'une condition. Ici, la condition est que la valeur courante de la boucle "for" doit être un répertoire ("-d"), et le bloc de code est exécuté uniquement si cette condition est vraie.
+- ```if [ -d "$d" ]; then ... fi;``` : cette syntaxe permet de conditionner l'exécution d'un bloc de code en fonction d'une condition. Ici, la condition est que la valeur courante de la boucle "for" doit être un répertoire (```-d```), et le bloc de code est exécuté uniquement si cette condition est vraie.
 
 - ```count=$((count+1));``` : cette ligne incrémente la variable "count" de 1 à chaque fois qu'un répertoire est trouvé.
 
