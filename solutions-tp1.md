@@ -36,7 +36,7 @@ L'option "-i" indique que la recherche doit être insensible à la casse.
 
 
 ## Mission 3 :
-```ln -s ../config-PATP01129302.php config.php   ```
+```ln -s ../config-PATP01129302.php config.php   ```  
 La commande permet de créer un lien symbolique nommé "config.php" dans le dossier racine du code source.
 
 ## Mission 4 :
