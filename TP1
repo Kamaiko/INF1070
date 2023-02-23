@@ -65,7 +65,7 @@ M08.e) (Fichiers annexés dans le rapport)
 Mission 9:
 
 M09.a) 20230116
-M09.b) date -d "2023-01-16 00:00:00" +%s
+M09.b) echo $(date -d "2023-01-16 00:00:00" +%s) - $(date -d "1970-01-01 00:00:00" +%s) | bc
 M09.c)
 M09.d)
 M09.e)
