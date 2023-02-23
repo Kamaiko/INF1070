@@ -96,7 +96,7 @@ $CFG->dbpass    = 'patp01129302';
 ## Mission 8 :
 
 #### M08.a) : ```shc -f ../Téléchargements/moi.sh -o M08  ```
-- La commande ``` shc -f```  permet de compiler le fichier executable *"moi.sh"* et de générer un exécutable nommé *"M08"*. l'option ```-f``` spécifie le nom du fichier à compiler. ```-o``` spécifie le nom du fichier à la sortie.
+- La commande ``` shc -f```  permet de compiler le fichier executable *"moi.sh"* et de générer un exécutable nommé *"M08" *. l'option ```-f``` spécifie le nom du fichier à compiler. ```-o``` spécifie le nom du fichier à la sortie.
 
 #### M08.b) 2 fichiers sont crées : *"M08"* et *"moi.sh.x.c"*  
 
