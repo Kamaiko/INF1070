@@ -120,7 +120,7 @@ $CFG->dbpass    = 'patp01129302';
 
 
 #### M09.c) ```touch -t 202301160000.00 version.php ``` 
-- La commande ```touch -t"``` permet de spécifier la date et l'heure exacte à laquelle lefichier doit être modifié.
+- La commande ```touch -t``` permet de spécifier la date et l'heure exacte à laquelle lefichier doit être modifié.
 
 #### M09.d) ```stat -c %y version.php  ```
 Résultat affiché : *2023-01-16 00:00:00.000000000 -0500*
