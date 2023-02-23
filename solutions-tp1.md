@@ -65,7 +65,7 @@ $CFG->dbpass    = 'patp01129302';
 - ```find``` est une commande qui permet de chercher des fichiers dans un répertoire donné.  
 - *"/home/patp01129302/moodle"* est le répertoire à partir duquel la recherche doit être effectuée.  
 - ```-name "*.zip"``` spécifie que la recherche doit être effectuée uniquement sur les fichiers dont l'extension est .zip.  
-- ``` -printf "%f\n" "* spécifie le format de sortie. %f renvoie le nom de fichier sans le chemin absolu et \n ajoute une nouvelle ligne après chaque nom de fichier. 
+- ``` -printf "%f\n" ``` spécifie le format de sortie. %f renvoie le nom de fichier sans le chemin absolu et \n ajoute une nouvelle ligne après chaque nom de fichier. 
 - ``` > ``` est utilisé pour rediriger la sortie vers un fichier, dans ce cas *"M07.txt"*.  
 
 
