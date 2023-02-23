@@ -48,7 +48,7 @@ $CFG->dbpass    = 'patp01129302';
 
 ## Mission 3 :
 ```ln -s ../config-PATP01129302.php config.php   ```  
-- La commande permet de créer un lien symbolique nommé *"config.php"* dans le dossier racine du code source.
+- La commande ```ln -s``` permet de créer un lien symbolique nommé *"config.php"* dans le dossier racine du code source.
 
 ## Mission 4 :
 ```count=0; for d in $(find . -maxdepth 4 -type d -not -path '*/\.*'); do if [ -d "$d" ]; then count=$((count+1)); fi; done; echo $count```  
