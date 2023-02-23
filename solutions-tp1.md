@@ -52,7 +52,25 @@ $CFG->dbpass    = 'patp01129302';
 
 ## Mission 4 :
 ```count=0; for d in $(find . -maxdepth 4 -type d -not -path '*/\.*'); do if [ -d "$d" ]; then count=$((count+1)); fi; done; echo $count```  
-- Cette commande parcours chaque dossier à une profondeur de 4 sous-arbres du dossier courant (*"moodle"*) et incrémente la variable ```count``` si le chemin trouvé est un dossier.
+- ```count=0;``` : Cette ligne initialise la variable "count" à 0, qui sera utilisée pour stocker le nombre de répertoires trouvés.
+
+- ```for d in $(...); do``` : Cette ligne commence une boucle "for" qui va parcourir tous les répertoires trouvés par la commande "find".
+
+- ```find . -maxdepth 4 -type d -not -path '*/\.*'``` est la commande ```find``` elle-même. Elle recherche tous les répertoires (``` -type d```) situés dans le répertoire courant (".") jusqu'à une profondeur maximale de 4 niveaux ("-maxdepth 4"), en ignorant les répertoires cachés (option "-not -path '/.'").
+
+- ```$()``` : cette syntaxe permet d'exécuter une commande shell à l'intérieur d'une autre commande shell et d'utiliser sa sortie comme entrée. Dans ce cas, la sortie de la commande "find" sera utilisée pour parcourir les répertoires avec la boucle "for".
+
+- ```for d in ... ; do``` : cette syntaxe permet de parcourir une liste de valeurs (dans ce cas, les répertoires trouvés par la commande "find") et d'exécuter un bloc de code pour chaque valeur.
+
+- ```if [ -d "$d" ]; then count=$((count+1)); fi;``` : Cette ligne vérifie si la valeur courante de la boucle "for" est bien un répertoire, et si c'est le cas, elle incrémente la variable "count" de 1.
+
+- ```if [ -d "$d" ]; then ... fi;``` : cette syntaxe permet de conditionner l'exécution d'un bloc de code en fonction d'une condition. Ici, la condition est que la valeur courante de la boucle "for" doit être un répertoire ("-d"), et le bloc de code est exécuté uniquement si cette condition est vraie.
+
+- ```count=$((count+1));``` : cette ligne incrémente la variable "count" de 1 à chaque fois qu'un répertoire est trouvé.
+
+- ```done;``` : Cette ligne marque la fin de la boucle "for".
+
+- ```echo $count``` : Cette ligne affiche le nombre de répertoires trouvés, qui a été stocké dans la variable "count", en utilisant la commande "echo
 
 ## Mission 5 :
 ```grep -rinw 'dougiamas' admin | awk -F ":" '{print $1 " -> Ligne: " $2}' > ../M05.txt ``` 
