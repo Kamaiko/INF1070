@@ -1,12 +1,12 @@
 #  🚀 TP1: Solutions
 
-|---------------------------------------------|
-|             Nom : Patrick Patenaude         |
-|        Code Permanent : PATP01129302        |
-| Ce document utilise uniquement des chemins  |
-| relatifs à partir du répertoire de travail  |
-|          actuel (moodle)                    |
-|---------------------------------------------|
+|---------------------------------------------| 
+|             Nom : Patrick Patenaude         | 
+|        Code Permanent : PATP01129302        | 
+| Ce document utilise uniquement des chemins  | 
+| relatifs à partir du répertoire de travail  | 
+|          actuel (moodle)                    | 
+|---------------------------------------------| 
 
 
 Travail réalisé par : Patrick Patenaude              
