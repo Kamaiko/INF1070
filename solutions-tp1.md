@@ -96,11 +96,11 @@ $CFG->dbpass    = 'patp01129302';
 ## Mission 8 :
 
 #### M08.a) : ```shc -f ../Téléchargements/moi.sh -o M08  ```
-- La commande ``` shc -f```  permet de compiler le fichier executable *"moi.sh"* et de générer un exécutable nommé "M08" . L'option ```-f``` spécifie le nom du fichier à compiler. L'option ```-o``` spécifie le nom du fichier à la sortie.
+- La commande ```shc -f```  permet de compiler le fichier executable *"moi.sh"* et de générer un exécutable nommé "M08" . L'option ```-f``` spécifie le nom du fichier à compiler. L'option ```-o``` spécifie le nom du fichier à la sortie.
 
 #### M08.b) 2 fichiers sont crées : *"M08"* et *"moi.sh.x.c"*  
 
-#### M08.c) Le premier est un fichier exécutable nommé *"M08"* de type ```Fichier exécutable ELF 64 bits``` et le second est un fichier de type ```C source```.  
+#### M08.c) Le premier est un fichier exécutable nommé *"M08"* de type "Fichier exécutable ELF 64 bits" et le second est un fichier de type "C source".  
 - Les commandes sont respectivement : ```file M08``` et ```file ../Téléchargements/moi.sh.x.c```
 
 #### M08.d) La commande ```./M08``` affiche le nom d'utilisateur actuel  
