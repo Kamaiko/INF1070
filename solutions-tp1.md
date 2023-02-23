@@ -10,12 +10,12 @@ M01.a J'ai utilisé la méthode git pour télécharger le code.
 M01.b Le dossier créé s'appelle "moodle" et contient le code de Moodle.
 
 M01.c) La commande permet de lister tous les fichiers et dossiers qui commencent par ".g" dans le répertoire courant :  
-.gherkin-lintrc
-.git
-.gitattributes
-.github
-.gitignore
-.grunt
+.gherkin-lintrc  
+.git  
+.gitattributes  
+.github  
+.gitignore  
+.grunt  
 
 
 Mission 2 :
